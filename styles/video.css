@@ -36,13 +36,8 @@
     grid-template-columns: 1fr;
   }
   
-  .profile-picture {
-    width: 36px;
-    border-radius: 18px;
-  }
-  
   .video-title {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     margin-bottom: 10px;
@@ -50,7 +45,7 @@
   
   .video-author,
   .video-stats {
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(96, 96, 96);
   }
   
