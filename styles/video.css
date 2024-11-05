@@ -6,19 +6,19 @@
   
   @media (max-width: 720px) {
     .video-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* @media (min-width: 721px) and (max-width: 1139px) {
+    .video-grid {
       grid-template-columns: 1fr 1fr;
     }
-  }
+  } */
   
-  @media (min-width: 721px) and (max-width: 1139px) {
+  @media (min-width: 721px) {
     .video-grid {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
-  
-  @media (min-width: 1140px) {
-    .video-grid {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
     }
   }
   
